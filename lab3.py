@@ -13,7 +13,6 @@ for i in range (1499,2701):
 
 
 
-
 #program to convert celsius into farenheit and farenheit into celsius
 
 temp=float(input("Enter a temperature value in farenheit:"))
@@ -52,9 +51,7 @@ else:
 
 
 
-
-
-#wap to print the following pattern using nestted for loop
+#wap to print the following pattern using nested for loop
 # *
 # **
 # ***
@@ -83,7 +80,7 @@ for i in range(9):
 
 
 
-#write a program that takes a workd from user and reverse it
+#write a program that takes a word from user and reverse it
 
 word=input("Enter a word:")
 
@@ -199,6 +196,7 @@ for i in range (51):
 # Expected Result: [[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]]
 
 
+
 m=int(input("Enter the number of rows:"))
 n=int(input("Enter the number of columns:"))
 
@@ -208,7 +206,8 @@ for i in range(m):
     for j in range(n):
         nested_list[i][j]=i*j
 
-print(nested_list)    
+print(nested_list)
+
 
 
 
