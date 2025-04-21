@@ -11,8 +11,6 @@ for i in range (1499,2701):
 
 
 
-
-
 #program to convert celsius into farenheit and farenheit into celsius
 
 temp=float(input("Enter a temperature value in farenheit:"))
